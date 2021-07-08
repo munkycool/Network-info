@@ -6,10 +6,12 @@ variable=Hello
 
 Hello=$(lshw -class network)
 
+cd~ 
+
 touch network.txt
 
 echo $Hello
 
-echo $Hello > /home/bridger/bash-scrpts/network.txt
+echo $Hello > ~/network.txt
 
 
